@@ -4,5 +4,9 @@
         <members>Account.Region__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>region_permission_set</members>
+        <name>PermissionSet</name>
+    </types>
     <version>55.0</version>
 </Package>
