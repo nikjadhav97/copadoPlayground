@@ -316,14 +316,14 @@
                     <label>African</label>
                 </value>
                 <value>
-                    <fullName>American</fullName>
-                    <default>false</default>
-                    <label>American</label>
-                </value>
-                <value>
                     <fullName>European</fullName>
                     <default>false</default>
                     <label>European</label>
+                </value>
+                <value>
+                    <fullName>Americans</fullName>
+                    <default>false</default>
+                    <label>Americans</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
