@@ -252,6 +252,42 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Srilanka</fullName>
+                    <default>false</default>
+                    <label>Srilanka</label>
+                </value>
+                <value>
+                    <fullName>Nepal</fullName>
+                    <default>false</default>
+                    <label>Nepal</label>
+                </value>
+                <value>
+                    <fullName>Bhutan</fullName>
+                    <default>false</default>
+                    <label>Bhutan</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
