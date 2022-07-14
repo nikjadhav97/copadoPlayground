@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>caseUpdateTestClass5</members>
+        <members>BevergesTestClass</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>CaseUpdateSubjectTrigger5</members>
+        <members>BeverageTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <version>55.0</version>
