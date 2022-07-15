@@ -233,16 +233,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Price__c</fullName>
-        <externalId>false</externalId>
-        <label>Price</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
         <fullName>Quanity__c</fullName>
         <externalId>false</externalId>
         <label>Quanity</label>
