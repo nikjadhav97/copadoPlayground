@@ -5762,11 +5762,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Beverages__c.Price__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Beverages__c.Quanity__c</field>
         <readable>false</readable>
     </fieldPermissions>
