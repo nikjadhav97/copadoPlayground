@@ -1,12 +1,7 @@
 trigger BeverageTrigger3 on Beverages__c (before insert) {
- // List<Beverages__c> c = [SELECT Quanity__c, Available_Stock__c FROM Beverages__c Where id in:trigger.new];
-
-    For(Beverages__c temp: trigger.new){ 
-
-
-        if(temp.Quanity__c > temp.Available_Stock__c){
-
-            temp.Quanity__c.addError('Quantity can not be more than available stock');
-        }
+ List<Beverages__c> b = [SELECT Flav__c , Content__c, Name FROM Beverages__c Where id in:trigger.new];
+    for (Beverages__c c :b){ 
+        c.Name=(c.Flav__c + c.Content__c); 
     }
+    update b ;
 }
