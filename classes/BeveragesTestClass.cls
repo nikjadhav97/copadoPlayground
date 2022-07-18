@@ -1,10 +1,12 @@
 @isTest
 public class BeveragesTestClass {
-   @isTest static void updateCases(){
+ @isTest
+    private static void test(){
+      Beverages__c cas = new Beverages__c(Quanity__c=5, Available_Stock__c=4, Name ='abc');
 
-      Beverages__c cas = new Beverages__c(Name='Test Cases', Flav__c='Sprite', Content__c='200ml');
 
-        insert cas;
+             Database.SaveResult result = Database.insert(cas, false); 
+       System.assertEquals('Quantity can not be more than available stock',result.getErrors()[0].getMessage());
 
 
 
