@@ -1,5 +1,5 @@
 trigger BeverageTrigger on Beverages__c (before insert) {
-  // List<Beverages__c> c = [SELECT Quanity__c, Available_Stock__c FROM Beverages__c Where id in:trigger.new];
+   // List<Beverages__c> c = [SELECT Quanity__c, Available_Stock__c FROM Beverages__c Where id in:trigger.new];
 
     For(Beverages__c temp: trigger.new){ 
 
